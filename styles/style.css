@@ -82,7 +82,6 @@ nav ul li:nth-child(2) a:hover {
 }
 
 #primary {
-  font-size: 40px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   padding: 0 0 1rem 2rem;
