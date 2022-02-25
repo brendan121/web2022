@@ -1,39 +1,53 @@
 html {
   font-size: 100%;
+  background-color: #fff;
+  color: #000;
 }
 
 body{
   padding: 0;
   margin: 0;
-  background-color:#ffffff;
-  font-family: serif;
+  font-family: sans-serif;
 }
 
 header {
-  background-color: black;
-  color: #fff;
-  font-size: 0.5rem;
-
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: end;
+  height: 3.5 rem;
+  padding-top: 0.8rem;
+  background-color: #fff;
+  color: #000;
+  font-size: .5rem;
+  text-transform: uppercase;
 }
-
+nav {
+  padding: 1rem 0 1rem 0;
+}
 nav ul{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
   list-style-type: none;
 }
 
 nav ul li{
   background-color: #888888;
+  color: #000;
   border: 1px solid #888888;
   padding: 1em 4em 1em 4em;
   font-weight:bold;
 }
 
-nav ul li{
+nav ul li a {
+  background-color: #888;
   color: #000000;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 nav ul li a:hover {
+  background-color: #888;
   color: #000;
   text-transform: uppercase;
   text-decoration: none;
@@ -41,41 +55,51 @@ nav ul li a:hover {
 
 nav ul li:nth-child(2) {
   background-color: #000;
+  color: #000
   border: 1px solid #000;
-  padding: 1em 4em 1em 4em;
+  padding: 1rem 4rem 1rem 4rem;
   font-weight: bold;
+  text-decoration: none;
 }
 
 nav ul li:nth-child(2) a {
+  background-color: #000;
   color: #fff;
+  text-decoration: none;
 }
 
 nav ul li:nth-child(2) a:hover {
+  background-color: #fff;
   color: #ffffff;
   text-transform: uppercase;
   text-decoration: underline;
 }
 
 .wrapper {
-  background-color: #888;
+  background-color: #000;
+  color: #888;
   margin: 0 2em 0 2em;
 }
 
 #primary {
-  padding: 0 0 1em 2em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 0 0 1rem 2rem;
 }
 
 #main_article{
-  padding: 0 1em 0 1em;
+  padding: 0 1rem 0 1rem;
 }
 
 figure{
-  padding: 1em 1em 0 1em;
+  padding: 1rem 1rem 0 1rem;
 }
 
 footer{
+  display: flex;
+  background-color: #242021;
   color: #000;
-  padding: 1em 0 1em 0;
+  padding: 1rem 0 1rem 0;
 }
 #insta_logo{
   width: 100%;
@@ -97,7 +121,7 @@ footer{
 
 address{
   color: #fff;
-  padding: 1em 0 1em 0;
+  padding: 1rem 0 1rem 0;
 }
 p{
   color: #fff;
