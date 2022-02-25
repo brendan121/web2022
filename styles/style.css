@@ -81,9 +81,7 @@ nav ul li:nth-child(2) a:hover {
   color: #888;
   margin: 0 2em 0 2em;
 }
-article {
-  font-size: 40px;
-}
+
 #primary {
   font-size: 40px;
   display: grid;
