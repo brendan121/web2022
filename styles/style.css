@@ -92,13 +92,13 @@ figure{
 
 footer{
   display: flex;
+  flex-wrap: wrap;
   background-color: #242021;
   color: #000;
-  padding: 1rem 0 1rem 0;
   font-size: 40px;
 }
 .logo{
-  border-radius: 50px;
+  border-radius: 25px;
   border: 10px solid #FF5733;
   box-shadow: 10px 10px;
 }
@@ -110,7 +110,7 @@ address{
 }
 p{
   color: #fff;
-  padding-right: 50px;
+  padding-right: 25px;
   font-size: 40px;
 }
 .atsign{
