@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS Table Demo</title>
+
+
+    <style>
+
+      table {
+        border-collapse: collapse;
+      }
+
+      caption {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        text-shadow: 3px 3px 4px black;
+        padding: 5px;
+        background-color: black;
+        color: white;
+      }
+
+      thead, tfoot {
+        background-color: #ff5252;
+        color: white;
+        font-weight: bold;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+      }
+
+      th, td {
+        padding: 5px 10px;
+      }
+
+      .center {
+        text-align: center;
+      }
+
+      .rowhover:hover {
+        background-color: black;
+        color: white;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+    <table>
+      <caption>The Whatever Forum Profile Info</caption>
+      <thead>
+        <tr>
+          <th colspan="2">Profile Info</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr class="rowhover">
+          <td>First Name:</td>
+          <td class="center">Brendan</td>
+        </tr>
+        <tr class="rowhover">
+          <td>Last Name:</td>
+          <td class="center">Passarell</td>
+        </tr>
+        <tr class="rowhover">
+          <td>Email Address:</td>
+          <td class="center">bapa234@g.uky.edu</td>
+        </tr>
+        <tr class="rowhover">
+          <td>Date of Birth:</td>
+          <td class="center">02/21/1999</td>
+        </tr>
+        <tr class="rowhover">
+          <td>Password:</td>
+          <td class="center">Password123</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+
+      </tfoot>
+
+
+    </table>
+
+
+
+
+
+  </body>
+  </html>
