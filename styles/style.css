@@ -14,7 +14,7 @@ header {
   display: flex;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   justify-items: end;
-  height: 3.5 rem;
+  height: 1.5 rem;
   padding-top: 0.8rem;
   background-color: #fff;
   color: #000;
@@ -94,7 +94,7 @@ footer{
   display: flex;
   flex-wrap: wrap;
   background-color: #242021;
-  padding:-10px;
+  padding:10px;
   color: #000;
   font-size: 40px;
 }
