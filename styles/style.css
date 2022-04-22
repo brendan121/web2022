@@ -11,7 +11,7 @@ body{
 }
 
 header {
-  display: flex;
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   justify-items: end;
   height: .5rem;
