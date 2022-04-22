@@ -96,6 +96,9 @@ footer{
   background-color: #242021;
   padding:10px;
   color: #000;
+  font-size: 1.0rem;
+  bottom: 0;
+  width: 100%;
 }
 .logo{
   border-radius: 25px;
@@ -111,7 +114,9 @@ address{
 p{
   color: #fff;
   padding-right: 25px;
+  font-size: 1.0rem;
 }
 .atsign{
   text-align: center;
+  font-size: 1.0rem;
 }
